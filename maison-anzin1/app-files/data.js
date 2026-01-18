@@ -45,7 +45,7 @@ var APP_DATA = {
           "yaw": 0.5169098093835132,
           "pitch": 0.08608041063079241,
           "rotation": 10.995574287564278,
-          "target": "7-chambre-rdc"
+          "target": "5-chambre-rdc"
         }
       ],
       "infoHotspots": [
@@ -108,7 +108,7 @@ var APP_DATA = {
           "yaw": 1.4987879460071136,
           "pitch": 0.04787788215098843,
           "rotation": 6.283185307179586,
-          "target": "7-chambre-rdc"
+          "target": "5-chambre-rdc"
         }
       ],
       "infoHotspots": []
@@ -152,13 +152,13 @@ var APP_DATA = {
           "yaw": -0.7863287714054099,
           "pitch": 0.10994846472932096,
           "rotation": 0.7853981633974483,
-          "target": "9-couloir-entre"
+          "target": "6-couloir-entre"
         },
         {
           "yaw": -1.041891040693578,
           "pitch": 0.10707790454821442,
           "rotation": 5.497787143782138,
-          "target": "4-pallier-tage"
+          "target": "4-palier-etage"
         }
       ],
       "infoHotspots": []
@@ -196,21 +196,21 @@ var APP_DATA = {
           "yaw": -3.0217181955495125,
           "pitch": 0.09675521424028766,
           "rotation": 0.7853981633974483,
-          "target": "4-pallier-tage"
+          "target": "4-palier-etage"
         }
       ],
       "infoHotspots": [
         {
           "yaw": -2.9573504247521605,
           "pitch": -0.12923705737840052,
-          "title": "Direction le courloir",
+          "title": "Direction le couloir",
           "text": "Text"
         }
       ]
     },
     {
-      "id": "4-pallier-tage",
-      "name": "pallier étage",
+      "id": "4-palier-etage",
+      "name": "palier étage",
       "levels": [
         {
           "tileSize": 256,
@@ -241,7 +241,7 @@ var APP_DATA = {
           "yaw": 0.5324126101592839,
           "pitch": 0.3980234495862547,
           "rotation": 2.356194490192345,
-          "target": "9-couloir-entre"
+          "target": "6-couloir-entre"
         },
         {
           "yaw": 2.3240343162934147,
@@ -253,69 +253,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "5-salon-2",
-      "name": "salon 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "yaw": -0.008096888282427273,
-        "pitch": 0.2473144701203296,
-        "fov": 1.3911794189911846
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "6-salon",
-      "name": "Salon",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "yaw": 2.231722679964946,
-        "pitch": 0.09343238172693802,
-        "fov": 1.3911794189911846
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "7-chambre-rdc",
+      "id": "5-chambre-rdc",
       "name": "chambre rdc",
       "levels": [
         {
@@ -360,38 +298,7 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "8-cuisine",
-      "name": "Cuisine",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "9-couloir-entre",
+      "id": "6-couloir-entre",
       "name": "Couloir entrée",
       "levels": [
         {
@@ -429,7 +336,7 @@ var APP_DATA = {
           "yaw": 1.01583871190768,
           "pitch": -0.20811259245295766,
           "rotation": 5.497787143782138,
-          "target": "4-pallier-tage"
+          "target": "4-palier-etage"
         }
       ],
       "infoHotspots": []
